@@ -1,2 +1,1 @@
-web: Python manage.py runserver
-heroku ps:scale web=1
+web: gunicorn webbasedgame.wsgi --log-file -

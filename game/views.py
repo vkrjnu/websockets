@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.views.generic import View
 from django.template import RequestContext
 from django.http import HttpResponse
-from game.models import *
+from .models import *
 import uuid
 from django.contrib import messages
 
